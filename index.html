@@ -9,9 +9,16 @@
         let name = prompt("What`s your name?");
         alert("Hello "+name);
 
-
         let words = ["javascript","monkey","amazing","pancake"]
         let word = words[Math.floor(Math.random()*words.length)];
+
+        let answerArray = [];
+        for(let i = 0; i < word.length; i++){
+            answerArray[i] = "_";
+        }
+        let remainingLetters = word.length;
+
+        
     </script>
 </head>
 <body>
