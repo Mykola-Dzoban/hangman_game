@@ -28,9 +28,9 @@
                 alert("Please enter a single letter!")
             } else {
                 for(let j = 0; j < word.length; j++){
-                    if(word[j] === guess){
+                    if(word[j] === guess.toLowerCase()){
                         answerArray[j] = guess;
-                        remainingLetters--;
+                        limitingGuess--;
                     }
                 }
             }
